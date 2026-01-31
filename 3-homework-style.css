@@ -1,0 +1,78 @@
+/* Felipe Rosario Dos Santos - Customer Success Specialist*/
+
+#modal-container {
+	font-family: 'Poppins', sans-serif !important;
+	border-radius: 20px !important; 
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+	overflow: hidden;  
+}
+
+.Header {
+--color-base-text: 46, 42, 57;
+--color-base-background-2: 237, 255, 167;
+--gradient-base-background-2: radial-gradient(rgba(255, 229, 229, 1), rgb(251 232 229) 25%, rgb(194 255 76) 100%);
+--color-foreground: var(--color-base-text);
+--color-background: var(--color-base-background-2);
+--gradient-background: var(--gradient-base-background-2);
+font-family: var(--font-heading-family);
+font-weight: 600;
+font-size: calc(var(--font-heading-scale) * 1.2rem);
+background: var(--gradient-background);
+background-attachment: fixed;
+border-bottom: .01rem solid rgba(var(--color-foreground), 0.08);
+color: #2E2A39;
+}
+
+#modal-container button[data-cy="add"] {
+font-family: 'Poppins', sans-serif !important;
+font-weight: 500 !important; 
+background-color: #9E5C8B !important; 
+color: #FAF7F2 !important; 
+border: 2px solid #9E5C8B !important;
+border-radius: 10px !important; 
+padding: 8px 20px !important; 
+font-size: 1.5rem !important; 
+letter-spacing: 0.1rem !important;
+cursor: pointer !important; 
+transition: background-color 0.3s ease, border-color 0.3s ease !important; 
+}
+
+.Footer{
+--gradient-base-background-2: radial-gradient(rgb(229 241 171) 25%, rgb(227 241 173) 100%);    
+--gradient-background: var(--gradient-base-background-2);
+background: var(--gradient-background);
+}
+
+.offer-image-grid {
+border-radius: 10% !important;  
+overflow: hidden;  
+}
+
+img[alt="Product"] {
+	border-radius: 15% !important;
+	overflow: hidden;
+}
+
+.mr-15{
+	background-color: rgba(240, 241, 233, 1) !important;
+}
+
+button[data-cy="continue-button"]{
+font-family: 'Poppins', sans-serif !important;
+font-weight: 600 !important; 
+background-color: #feffe8 !important; 
+color: #859545 !important;
+border: 2px solid #acbf61 !important;
+border-radius: 10px !important; 
+padding: 8px 20px !important; 
+font-size: 1.2rem !important; 
+letter-spacing: 0.1rem !important;
+cursor: pointer !important; 
+transition: background-color 0.3s ease, border-color 0.3s ease !important; 
+
+}
+
+.Product-Line{
+	background-color: rgba(240, 241, 233, 1) !important;
+}
+
